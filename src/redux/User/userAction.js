@@ -84,7 +84,7 @@ export const userLogin = ({email,password,role,navigate})=>{
         toast.warn(error?.response?.data?.message)
         dispatch({
           type:ERR_LOGIN_USER,
-          payload:error.response.data.message
+          payload:error?.response?.data?.message
         })
       })
    }
