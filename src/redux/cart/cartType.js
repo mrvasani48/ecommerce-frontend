@@ -1,0 +1,17 @@
+  export const GET_CART_REQ ="GET_CART_REQ"
+  export const GET_CART_SUC ="GET_CART_SUC"
+  export const GET_CART_ERR ="GET_CART_ERR"
+
+  export const ADD_CART_REQ ="ADD_CART_REQ"
+  export const ADD_CART_SUC ="ADD_CART_SUC"
+  export const ADD_CART_ERR ="ADD_CART_ERR"
+
+  export const REMOVE_CART_REQ ="REMOVE_CART_REQ"
+  export const REMOVE_CART_SUC ="REMOVE_CART_SUC"
+  export const REMOVE_CART_ERR ="REMOVE_CART_ERR"
+
+  export const ADJUST_QUANTITY_REQ ="ADJUST_QUANTITY_REQ"
+  export const ADJUST_QUANTITY_SUC ="ADJUST_QUANTITY_SUC"
+  export const ADJUST_QUANTITY_ERR ="ADJUST_QUANTITY_ERR"
+
+  export const EMPTY_CART="EMPTY_CART"

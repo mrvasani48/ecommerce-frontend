@@ -1,0 +1,3 @@
+export const GET_BUYER_USER="GET_BUYER_USER"
+export const ERR_BUYER_USER="ERR_BUYER_USER"
+
