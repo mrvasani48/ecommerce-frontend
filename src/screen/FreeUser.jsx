@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Userdata } from "../contexts/UserContext";
+import { Userdata } from "../contexts/userContext";
 
 export default function FreeUser() {
 

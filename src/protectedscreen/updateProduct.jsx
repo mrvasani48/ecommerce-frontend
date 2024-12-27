@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router";
-import { updateProduct } from "../redux/product/productAction";
+import { updateProduct } from "../redux/Product/productAction";
 
 function UpdateProduct() {
 

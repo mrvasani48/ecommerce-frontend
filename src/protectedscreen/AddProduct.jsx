@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
-import { addProduct } from "../redux/product/productAction";
+import { addProduct } from "../redux/Product/productAction";
 
 function AddProduct() {
   const dispatch = useDispatch();

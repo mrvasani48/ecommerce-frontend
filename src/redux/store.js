@@ -1,9 +1,9 @@
 import { applyMiddleware, createStore } from "redux";
 import thunk from "redux-thunk";
 import { combineReducers } from "redux";
-import BuyerReducers from "./buyer/buyerReducer";
-import productReducers from "./product/productReducer";
-import userReducers from "./user/UserReducer";
+import BuyerReducers from "./Buyer/buyerReducer";
+import productReducers from "./Product/productReducer";
+import userReducers from "./User/UserReducer";
 import wishlistReducer from "./wishlist/wishlistReducer";
 import orderReducer from "./order/orderReducer";
 import { cartReducer } from "./cart/cartReducer";

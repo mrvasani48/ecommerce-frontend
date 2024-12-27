@@ -5,25 +5,25 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../screen/HomePage.jsx";
 import Login from "../screen/SIgnIn";
 import SignUp from "../screen/SignUp";
-import About from "../screen/About.jsx";
+import About from "../screen/about.jsx";
 import Error from "../screen/ErrorPage.jsx";
-import UserProvider from "../contexts/UserContext";
+import UserProvider from "../contexts/userContext";
 import FreeUser from "../screen/FreeUser.jsx";
 import Product from "../screen/Product.jsx";
 import ParticularProduct from "../screen/ParticularProduct.jsx";
 
 //private routes
 
-import Dashboard from "../protectedScreen/Dashboard.jsx";
-import Auth from "../protectedScreen/Auth.jsx";
-import AddProduct from "../protectedScreen/AddProduct.jsx";
-import UpdateProduct from "../protectedScreen/UpdateProduct.jsx";
-import WishlistProduct from "../protectedScreen/WishlistProduct.jsx";
-import CartProduct from "../protectedScreen/Cart.jsx";
-import Checkout from "../protectedScreen/Checkout.jsx";
-import Order from "../protectedScreen/Order.jsx";
-import AdminOrder from "../protectedScreen/AdminOrder.jsx";
-import Profile from "../protectedScreen/Profile.jsx";
+import Dashboard from "../protectedscreen/Dashboard.jsx";
+import Auth from "../protectedscreen/auth.jsx";
+import AddProduct from "../protectedscreen/AddProduct.jsx";
+import UpdateProduct from "../protectedscreen/updateProduct.jsx";
+import WishlistProduct from "../protectedscreen/wishlistProduct.jsx";
+import CartProduct from "../protectedscreen/cart.jsx";
+import Checkout from "../protectedscreen/Checkout.jsx";
+import Order from "../protectedscreen/Order.jsx";
+import AdminOrder from "../protectedscreen/AdminOrder.jsx";
+import Profile from "../protectedscreen/Profile.jsx";
 
 export default function routes() {
   return (

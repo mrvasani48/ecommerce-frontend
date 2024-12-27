@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import validationSchema from "../utils/SIgnupValidation";
 import "../assets/css/signup.css";
 import { useDispatch } from "react-redux";
-import {SignUp} from '../redux/user/userAction'
+import {SignUp} from '../redux/User/userAction'
 
 export default function Signup() {
   const navigate = useNavigate();

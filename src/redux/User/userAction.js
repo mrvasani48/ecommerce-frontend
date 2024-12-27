@@ -67,7 +67,6 @@ export const userLogin = ({email,password,role,navigate})=>{
       }
       axios.post("http://localhost:5001/user/login",loginData,config)
       .then((res)=>{     
-        //  console.log("login responce",res.data.token);
         toast.success("login successfully",{autoClose:2000})
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("profile",JSON.stringify(res.data.data))
@@ -76,13 +75,13 @@ export const userLogin = ({email,password,role,navigate})=>{
         navigate("/p/product");
         dispatch({
          type:SUCCESS_LOGIN_USER,
-          payload:res.data.data
+          payload:res?.data?.data
     })
       })
       .catch((error)=>{
         // toast.dismiss()
         // toast.error(error.message)
-        toast.warn(error.response.data.message)
+        toast.warn(error?.response?.data?.message)
         dispatch({
           type:ERR_LOGIN_USER,
           payload:error.response.data.message

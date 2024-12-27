@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getBuyer } from "../redux/buyer/buyerAction";
+import { getBuyer } from "../redux/Buyer/buyerAction";
 
 const  Dashboard=()=> {
   const dispatch = useDispatch();

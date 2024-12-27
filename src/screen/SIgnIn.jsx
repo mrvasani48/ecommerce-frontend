@@ -1,7 +1,7 @@
 import React, {  useState } from "react";
 import { useDispatch } from "react-redux";
 import { NavLink, useNavigate,Navigate } from "react-router-dom";
-import {userLogin} from '../redux/user/userAction'
+import {userLogin} from '../redux/User/userAction'
 import "../assets/css/login.css";
 
 export default function Login() {
