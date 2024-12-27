@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const dbUrl = "mongodb+srv://kishan:kishan@kishan.6tkak.mongodb.net/react-node?retryWrites=true&w=majority" 
+const dbUrl = process.env.API
 mongoose
   .connect(dbUrl)
   .then(() => console.log("database connect succeefully"))

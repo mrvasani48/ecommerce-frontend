@@ -1,4 +1,4 @@
-import Product from "../models/ProductModel.js";
+import Product from "../models/productModel.js";
 import Wishlist from "../models/wishlist.js";
 import jsonwebtoken from "jsonwebtoken";
 const ProductController = {
